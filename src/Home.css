@@ -1,0 +1,359 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f7f7;
+    padding-top: 70px;
+  }
+  
+  .sticky-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 1000;
+  }
+  
+  nav {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .logo {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 50px;
+  }
+
+  .button{
+    padding-left: 20px;
+  }
+
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 15px;
+    position: relative;
+    transition: color 0.3s;
+  }
+
+  nav a:hover {
+    color: whitesmoke; /* Change color on hover (Gold color) */
+  }
+
+  .search-container {
+    display: flex;
+    align-items: center;
+    color: black;
+  }
+
+  .search-container1 {
+    margin-top: 60px;
+    align-items: center;
+  }
+
+  .search-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #555;
+  }
+
+  .center{
+     display:flex;
+     justify-content: center;
+     margin: 30px;
+     margin-top:0px;
+  }
+  .search-bar1 {
+    padding: 15px;
+    width: 550px;
+    border: none;
+    border-radius: 35px;
+    font-size: 16px;
+    margin-left: 33%;
+    color: #000;
+    outline: none;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .search-icon {
+    font-size: 24px;
+    color: #040404;
+  }
+
+  .action-buttons {
+    display: flex;
+    align-items: center;
+  }
+
+  .round-button {
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .round-button1 {
+    background-color: darkgray;
+    color: #000000;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+
+
+
+.about{
+  text-align: center;font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size:large;
+  height: 375px;
+  width: 90%;
+  color: #030303;
+  background-color: rgb(152, 193, 206);
+  border-radius: 30px;
+  margin-left: 80px;
+}
+
+.about-back{
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  margin-left: 120px;
+  margin-right: 120px;
+  
+}
+
+.h2{
+  font-size: 35px;
+}
+
+
+
+
+  .travel-section {
+    position: relative;
+    padding: 40px;
+    background-color: #f5f5f5;
+    text-align: center;
+  }
+  
+  .places-container {
+    display: flex;
+    overflow: hidden;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .place-card {
+    flex: 0 0 auto;
+    margin-right: 160px;
+    height: 290px;
+    width: 350px;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    scroll-snap-align: start;
+  }
+  
+  .place-card img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .place-details {
+    margin-top: 15px;
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .arrow.left {
+    left: 10px;
+  }
+  
+  .arrow.right {
+    right: 10px; 
+  }
+
+
+
+
+
+  body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    padding: 0;
+  }
+  
+
+  .contact-section {
+    background-color: #ffffff;
+    border-radius: 30px;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding: 40px;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .contact-section h2 {
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  
+  .contact-section p {
+    color: #000000;
+  }
+  
+  .contact-details {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .contact-item {
+    margin: 0 20px;
+  }
+  
+  .contact-item img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-left: 65px;
+    justify-content: center;
+  }
+  
+  .contact-item p {
+    color: #040000;
+  }
+  
+  
+  
+
+
+    
+    @keyframes slidy {
+        0% { left: 0%; }
+        20% { left: 0%; }
+        25% { left: -100%; }
+        45% { left: -100%; }
+        50% { left: -200%; }
+        70% { left: -200%; }
+        75% { left: -300%; }
+        95% { left: -300%; }
+        100% { left: -400%; }
+        }
+        
+        body { 
+            margin: 0;
+         } 
+
+        div#slider { 
+            overflow: hidden; 
+            height: 500px;
+            border-radius: 30px;
+            margin-left: 300px;
+            margin-right: 300px;
+        }
+
+        div#slider figure img {
+            height: 450px;
+             width: 20%;
+              float: left; 
+            }
+
+        div#slider figure { 
+          position: relative;
+          width: 500%;
+          margin: 0;
+          left: 0;
+          text-align: left;
+          font-size: 0;
+          animation: 20s slidy infinite; 
+        }
+        
+
+
+
+
+
+        body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+          background-color: #f4f4f4;
+      }
+      
+      .section {
+          width: 80%;
+          margin: 50px auto;
+          overflow: hidden;
+          white-space: nowrap;
+      }
+      
+      .scroll-container {
+          display: flex;
+          scroll-snap-type: x mandatory;
+      }
+      
+      .card {
+          flex: 9  100px;
+          margin-right: 20px;
+          box-sizing: border-box;
+          scroll-snap-align: start;
+          background-color: #fff;
+          border-radius: 10px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          position: relative;
+          overflow: hidden;
+          transition: transform 0.3s ease;
+      }
+      
+      .card:hover {
+        transform: scale(1.05);
+      }
+      
+      .card img {
+          width: 100%;
+          border-radius: 10px 10px 0 0;
+          height: auto;
+          display: block;
+      }
+      
+      .card-content {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 0;
+        background: rgba(0, 0, 0, 0.7);
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
